@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the correct URL is displayed.</b><br>Expected Result: The correct URL should be displayed.<br>Actual Result: Correct URL was displayed</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that search textbox is displayed.</b><br>Expected Result: Search text box should be displayed.<br>Actual Result: Search text box was displayed</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Entered search term: yoga mat]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that search results title header is displayed.</b><br>Expected Result: Search results title header should be displayed.<br>Actual Result: Search results title header was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that search results title is correct.</b><br>Expected Result: Search results title header should be correct.<br>Actual Result: Search results title header was correct. Title was: 'yoga mat' in Yogamatten</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[--Closing S01_01_SuccessfulSearch--]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Session End=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16016" started-at="2019-08-17T15:37:29Z" finished-at="2019-08-17T15:37:45Z">
+    <groups>
+      <group name="Search">
+        <method signature="S01_Search.S01_01_SuccessfulSearch()[pri:0, instance:test.S01_Search@4e718207]" name="S01_01_SuccessfulSearch" class="test.S01_Search"/>
+      </group> <!-- Search -->
+    </groups>
+    <test name="Search" duration-ms="16016" started-at="2019-08-17T15:37:29Z" finished-at="2019-08-17T15:37:45Z">
+      <class name="test.S01_Search">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:test.S01_Search@4e718207]" name="startSuite" is-config="true" duration-ms="356" started-at="2019-08-17T15:37:29Z" finished-at="2019-08-17T15:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Search@4e718207]" name="startMethod" is-config="true" duration-ms="12" started-at="2019-08-17T15:37:29Z" finished-at="2019-08-17T15:37:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.S01_Search.S01_01_SuccessfulSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Search@4e718207]" name="startSetup" is-config="true" duration-ms="4963" started-at="2019-08-17T15:37:29Z" finished-at="2019-08-17T15:37:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startSetup -->
+        <test-method status="PASS" signature="S01_01_SuccessfulSearch()[pri:0, instance:test.S01_Search@4e718207]" name="S01_01_SuccessfulSearch" duration-ms="7519" started-at="2019-08-17T15:37:34Z" description="Verify that the user is able to input and obtain search results" finished-at="2019-08-17T15:37:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the correct URL is displayed.</b><br>Expected Result: The correct URL should be displayed.<br>Actual Result: Correct URL was displayed</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that search textbox is displayed.</b><br>Expected Result: Search text box should be displayed.<br>Actual Result: Search text box was displayed</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Entered search term: yoga mat]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that search results title header is displayed.</b><br>Expected Result: Search results title header should be displayed.<br>Actual Result: Search results title header was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that search results title is correct.</b><br>Expected Result: Search results title header should be correct.<br>Actual Result: Search results title header was correct. Title was: 'yoga mat' in Yogamatten</b></font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- S01_01_SuccessfulSearch -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:test.S01_Search@4e718207]" name="endTest" is-config="true" duration-ms="3113" started-at="2019-08-17T15:37:41Z" finished-at="2019-08-17T15:37:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--Closing S01_01_SuccessfulSearch--]]>
+            </line>
+            <line>
+              <![CDATA[=====Browser Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:test.S01_Search@4e718207]" name="endSuite" is-config="true" duration-ms="880" started-at="2019-08-17T15:37:45Z" finished-at="2019-08-17T15:37:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- test.S01_Search -->
+    </test> <!-- Search -->
+  </suite> <!-- Suite -->
+</testng-results>

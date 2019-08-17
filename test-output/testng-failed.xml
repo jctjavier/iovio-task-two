@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="10" name="Search(failed)">
+    <classes>
+      <class name="test.S01_Search">
+        <methods>
+          <include name="S01_01_SuccessfulSearch"/>
+          <include name="startMethod"/>
+          <include name="startSuite"/>
+          <include name="endTest"/>
+          <include name="endSuite"/>
+          <include name="startSetup"/>
+        </methods>
+      </class> <!-- test.S01_Search -->
+    </classes>
+  </test> <!-- Search(failed) -->
+</suite> <!-- Failed suite [Suite] -->
