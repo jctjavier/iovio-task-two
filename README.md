@@ -1,5 +1,5 @@
 # iovio-task-two
-##### status : *complete*
+##### status : *complete* :+1:
 ### Use Case
 ##### Verify that the user is able to navigate to the Bol.com main page, enter a search term, and receive the correct search results.
 
@@ -54,7 +54,7 @@ mvn test
 3. Use the wizard to set task properties
 4. In the **Security Options** group, select **Run only when user is logged on*
 5. In the Program/script box, enter the path to the batch file:
-..Example:
+_Example:_
 ```
 "C:\Scripts\tasktwo_run.bat"
 ```
@@ -62,7 +62,7 @@ mvn test
 
 #### CRON Jobs
 1. Download the shellscript **(tasktwo_run.sh)** and save in a preferred directory
-..* Note: The shellscript to clone and run the test can be downloaded from the exec folder in this repository
+* Note: The shellscript to clone and run the test can be downloaded from the exec folder in this repository
 3. To schedule the job to run at 1:00pm, add the following to the file:
 ```
 59 12 * * * ~/<PATH to sh file>/tasktwo_run.sh
