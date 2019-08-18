@@ -4,6 +4,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+/**
+ * Class for Main Page elements
+ * @author jctjavier
+ */
 public class MainPage {
 	
 	@FindBy(how = How.ID, using="js_consent_bar")

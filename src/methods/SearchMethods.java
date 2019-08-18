@@ -10,6 +10,10 @@ import main.Utils;
 import pageobjects.SearchBar;
 import pageobjects.SearchResults;
 
+/**
+ * Class for methods related to Search Product actions
+ * @author jctjavier
+ */
 public class SearchMethods {
 	
 	public static SearchBar searchBarElements = PageFactory.initElements(Setup.driver, SearchBar.class); 

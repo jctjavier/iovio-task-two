@@ -4,6 +4,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+/**
+ * Class for Search Results elements
+ * @author jctjavier
+ */
 public class SearchResults {
 	
 	@FindBy(how = How.ID, using="js_listpage_objects")
