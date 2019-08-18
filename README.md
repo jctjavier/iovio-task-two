@@ -1,8 +1,7 @@
 # iovio-task-two
-##### status : *incomplete*
+##### status : *complete*
 ### Use Case
-#### Verify that the user is able to navigate to the Bol.com main page, 
-#### enter a search term, and receive the correct search results.
+##### Verify that the user is able to navigate to the Bol.com main page, enter a search term, and receive the correct search results.
 
 ### Pre-requisites
 - Java JDK installed and added to environment variables
