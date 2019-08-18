@@ -29,13 +29,13 @@ public class MainPageMethods {
 	 * Verifies the elements on the main/welcome page for Bol.com
 	 */
 	public static void verifyMainPageOpen() {
-		
-		if (Setup.driver.getCurrentUrl().equals(ProjectConstant.BOL_NL_URL)) {
+		String currentUrl = Setup.driver.getCurrentUrl();
+		if (currentUrl.equals(ProjectConstant.BOL_NL_URL)) {
 			Logger.logTestScript("Verify that the correct URL is displayed.", 
-					"The correct URL should be displayed.", "Correct URL was displayed", Constant.PASSED);
+					"The correct URL should be displayed.", "Correct URL was displayed: " + currentUrl, Constant.PASSED);
 		} else {
 			Logger.logTestScript("Verify that the correct URL is displayed.", 
-					"The correct URL should be displayed.", "Correct URL was NOT displayed", Constant.FAILED);
+					"The correct URL should be displayed.", "Correct URL was NOT displayed: " + currentUrl, Constant.FAILED);
 		}
 	}
 }
